@@ -1,0 +1,4710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>widget</class>
+ <widget class="QWidget" name="widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1487</width>
+    <height>843</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>300</width>
+    <height>100</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>智能化中药房管理系统</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>C:/Users/Lenovo/.designer/res_img/中药.png</normaloff>C:/Users/Lenovo/.designer/res_img/中药.png</iconset>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0,0,0">
+   <item>
+    <widget class="QWidget" name="widget_3" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout_11">
+      <item>
+       <widget class="QTreeWidget" name="treeWidget">
+        <property name="font">
+         <font>
+          <family>华文行楷</family>
+          <pointsize>18</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+    border: 2px solid rgb(100,100,100); /* 新增代码 */
+</string>
+        </property>
+        <column>
+         <property name="text">
+          <string>中药房管理系统</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>华文行楷</family>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="background">
+          <color>
+           <red>0</red>
+           <green>170</green>
+           <blue>255</blue>
+          </color>
+         </property>
+        </column>
+        <item>
+         <property name="text">
+          <string>首页</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>华文行楷</family>
+           <pointsize>22</pointsize>
+          </font>
+         </property>
+         <property name="background">
+          <brush brushstyle="NoBrush">
+           <color alpha="255">
+            <red>0</red>
+            <green>170</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>C:/Users/Lenovo/.designer/res_img/首页.png</normaloff>C:/Users/Lenovo/.designer/res_img/首页.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>药材管理</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>华文行楷</family>
+           <pointsize>22</pointsize>
+          </font>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>C:/Users/Lenovo/.designer/res_img/中药 (2).png</normaloff>C:/Users/Lenovo/.designer/res_img/中药 (2).png</iconset>
+         </property>
+         <item>
+          <property name="text">
+           <string>供货单位管理</string>
+          </property>
+          <property name="font">
+           <font>
+            <family>华文行楷</family>
+            <pointsize>18</pointsize>
+           </font>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>药材管理</string>
+          </property>
+          <property name="font">
+           <font>
+            <family>华文行楷</family>
+            <pointsize>18</pointsize>
+           </font>
+          </property>
+         </item>
+        </item>
+        <item>
+         <property name="text">
+          <string>处方管理</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>华文行楷</family>
+           <pointsize>22</pointsize>
+          </font>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>C:/Users/Lenovo/.designer/res_img/fill_处方单.png</normaloff>C:/Users/Lenovo/.designer/res_img/fill_处方单.png</iconset>
+         </property>
+         <item>
+          <property name="text">
+           <string>处方生成</string>
+          </property>
+          <property name="font">
+           <font>
+            <family>华文行楷</family>
+            <pointsize>18</pointsize>
+           </font>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>已有处方</string>
+          </property>
+          <property name="font">
+           <font>
+            <family>华文行楷</family>
+            <pointsize>18</pointsize>
+           </font>
+          </property>
+         </item>
+        </item>
+        <item>
+         <property name="text">
+          <string>设置</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>华文行楷</family>
+           <pointsize>22</pointsize>
+          </font>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>C:/Users/Lenovo/.designer/res_img/设置.png</normaloff>C:/Users/Lenovo/.designer/res_img/设置.png</iconset>
+         </property>
+         <item>
+          <property name="text">
+           <string>基础设置</string>
+          </property>
+          <property name="font">
+           <font>
+            <family>华文行楷</family>
+            <pointsize>18</pointsize>
+           </font>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>帮助</string>
+          </property>
+          <property name="font">
+           <font>
+            <family>华文行楷</family>
+            <pointsize>18</pointsize>
+           </font>
+          </property>
+         </item>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="menu_change">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{background: rgba(255,255,255,0)}
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>C:/Users/Lenovo/.designer/res_img/左箭头.png</normaloff>C:/Users/Lenovo/.designer/res_img/左箭头.png</iconset>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="Line" name="line_25">
+     <property name="minimumSize">
+      <size>
+       <width>2</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qradialgradient(spread:repeat, cx:0.5, cy:0.5, radius:0.077, fx:0.5, fy:0.5, stop:0 rgba(0, 169, 255, 147), stop:0.497326 rgba(0, 0, 0, 147), stop:1 rgba(0, 169, 255, 147));</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>200</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="0,0,0,0">
+        <item>
+         <widget class="QWidget" name="widget_2" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_21">
+           <item>
+            <widget class="QPushButton" name="pushButton_12">
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 10px;
+    font-family: 华文行楷;
+    border-bottom: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+font: 20pt &quot;华文行楷&quot;;
+border-bottom: 2px solid rgb(0,0,0);
+
+}
+
+QPushButton:pressed{
+    background: darkgray;
+font: 20pt &quot;华文行楷&quot;;
+}</string>
+             </property>
+             <property name="text">
+              <string>首页</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_9">
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 10px;
+    font-family: 华文行楷;
+    border-bottom: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+font: 20pt &quot;华文行楷&quot;;
+border-bottom: 2px solid rgb(0,0,0);
+
+}
+
+QPushButton:pressed{
+    background: darkgray;
+font: 20pt &quot;华文行楷&quot;;
+}</string>
+             </property>
+             <property name="text">
+              <string>供货单位管理</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_8">
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 10px;
+    font-family: 华文行楷;
+    border-bottom: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+font: 20pt &quot;华文行楷&quot;;
+border-bottom: 2px solid rgb(0,0,0);
+
+}
+
+QPushButton:pressed{
+    background: darkgray;
+font: 20pt &quot;华文行楷&quot;;
+}</string>
+             </property>
+             <property name="text">
+              <string>药材管理</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_6">
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 10px;
+    font-family: 华文行楷;
+    border-bottom: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+font: 20pt &quot;华文行楷&quot;;
+border-bottom: 2px solid rgb(0,0,0);
+
+}
+
+QPushButton:pressed{
+    background: darkgray;
+font: 20pt &quot;华文行楷&quot;;
+}</string>
+             </property>
+             <property name="text">
+              <string>已有处方</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_7">
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 10px;
+    font-family: 华文行楷;
+    border-bottom: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+font: 20pt &quot;华文行楷&quot;;
+border-bottom: 2px solid rgb(0,0,0);
+
+}
+
+QPushButton:pressed{
+    background: darkgray;
+font: 20pt &quot;华文行楷&quot;;
+}</string>
+             </property>
+             <property name="text">
+              <string>处方生成</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_10">
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 10px;
+    font-family: 华文行楷;
+    border-bottom: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+font: 20pt &quot;华文行楷&quot;;
+border-bottom: 2px solid rgb(0,0,0);
+
+}
+
+QPushButton:pressed{
+    background: darkgray;
+font: 20pt &quot;华文行楷&quot;;
+}</string>
+             </property>
+             <property name="text">
+              <string>基础设置</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_11">
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 10px;
+    font-family: 华文行楷;
+    border-bottom: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+font: 20pt &quot;华文行楷&quot;;
+border-bottom: 2px solid rgb(0,0,0);
+
+}
+
+QPushButton:pressed{
+    background: darkgray;
+font: 20pt &quot;华文行楷&quot;;
+}</string>
+             </property>
+             <property name="text">
+              <string>帮助</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_11">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btn_exit">
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255,80);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}
+
+QPushButton:pressed{
+    background: darkgray;
+}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>C:/Users/Lenovo/.designer/res_img/退出.png</normaloff>C:/Users/Lenovo/.designer/res_img/退出.png</iconset>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QToolButton" name="toolButton">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgba(255,255,255,80);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>C:/Users/Lenovo/.designer/res_img/群蜂账号管理.png</normaloff>C:/Users/Lenovo/.designer/res_img/群蜂账号管理.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="Line" name="line_27">
+        <property name="minimumSize">
+         <size>
+          <width>10</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QStackedWidget" name="stackedWidget">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+          <horstretch>100</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> background-color: transparent;</string>
+        </property>
+        <property name="currentIndex">
+         <number>4</number>
+        </property>
+        <widget class="QWidget" name="page_2">
+         <property name="styleSheet">
+          <string notr="true">font: 16pt &quot;华文行楷&quot;;</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="1" column="2">
+           <widget class="Line" name="line_84">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="Line" name="line_66">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="Line" name="line_65">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QTabWidget" name="tabWidget">
+            <property name="styleSheet">
+             <string notr="true">QTabWidget::pane{
+min-width:70px;
+min-height:25px;
+border-top: 2px solid;
+}
+QTabWidget::tab-bar{padding-top:40px;}
+QTabBar::tab {
+min-width: 140px;
+margin: 10px; 
+
+min-width:70px;
+
+min-height:25px;
+
+color: rgb(50,50,50);
+
+font:26px &quot;华文行楷&quot;;
+
+border: 0px solid;
+
+
+
+}
+
+QTabBar::tab:selected{
+
+min-width:70px;
+
+min-height:25px;
+color: rgb(0,0,0);
+
+font:28px &quot;华文行楷&quot;;
+
+border: 0px solid;
+
+border-bottom: 2px solid;
+
+border-color: black;
+
+}</string>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <widget class="QWidget" name="tab">
+             <property name="styleSheet">
+              <string notr="true">background-color: transparent;</string>
+             </property>
+             <attribute name="title">
+              <string>中药材入库管理</string>
+             </attribute>
+             <layout class="QVBoxLayout" name="verticalLayout_5">
+              <item>
+               <spacer name="verticalSpacer_8">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Minimum</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>30</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="Line" name="line_71">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_4">
+                <item>
+                 <widget class="Line" name="line_72">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>8</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <layout class="QGridLayout" name="gridLayout">
+                  <item row="1" column="3">
+                   <widget class="QLineEdit" name="lineEdit_14">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QLineEdit {
+    border: 2px solid rgb(130,130,130); /* 设置初始边框为浅白色 */
+    border-radius: 10px; /* 设置圆角半径为10px，可根据需要调整 */
+}
+
+QLineEdit:hover {
+    border: 4px solid #606060; /* 鼠标悬停时边框变粗且变为浅黑色 */
+}</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0">
+                   <widget class="QLabel" name="label_19">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 18pt &quot;华文行楷&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string>药材名称：</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QLabel" name="label_23">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 18pt &quot;华文行楷&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string>数量：</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="2" column="1">
+                   <widget class="QLineEdit" name="lineEdit_37">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QLineEdit {
+    border: 2px solid rgb(130,130,130); /* 设置初始边框为浅白色 */
+    border-radius: 10px; /* 设置圆角半径为10px，可根据需要调整 */
+}
+
+QLineEdit:hover {
+    border: 4px solid #606060; /* 鼠标悬停时边框变粗且变为浅黑色 */
+}</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="2" column="0">
+                   <widget class="QLabel" name="label_56">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 18pt &quot;华文行楷&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string>价格：</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="2">
+                   <widget class="QLabel" name="label_20">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 18pt &quot;华文行楷&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string>类别：</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="1">
+                   <widget class="QLineEdit" name="lineEdit_15">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QLineEdit {
+    border: 2px solid rgb(130,130,130); /* 设置初始边框为浅白色 */
+    border-radius: 10px; /* 设置圆角半径为10px，可根据需要调整 */
+}
+
+QLineEdit:hover {
+    border: 4px solid #606060; /* 鼠标悬停时边框变粗且变为浅黑色 */
+}</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="1">
+                   <widget class="QLineEdit" name="lineEdit_16">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QLineEdit {
+    border: 2px solid rgb(130,130,130); /* 设置初始边框为浅白色 */
+    border-radius: 10px; /* 设置圆角半径为10px，可根据需要调整 */
+}
+
+QLineEdit:hover {
+    border: 4px solid #606060; /* 鼠标悬停时边框变粗且变为浅黑色 */
+}</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="2">
+                   <widget class="QLabel" name="label_22">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 18pt &quot;华文行楷&quot;;</string>
+                    </property>
+                    <property name="text">
+                     <string>备注</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="3">
+                   <widget class="QLineEdit" name="lineEdit_17">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QLineEdit {
+    border: 2px solid rgb(130,130,130); /* 设置初始边框为浅白色 */
+    border-radius: 10px; /* 设置圆角半径为10px，可根据需要调整 */
+}
+
+QLineEdit:hover {
+    border: 4px solid #606060; /* 鼠标悬停时边框变粗且变为浅黑色 */
+}</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <widget class="Line" name="line_73">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>8</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_32">
+                  <item>
+                   <spacer name="horizontalSpacer_31">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>40</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item>
+                   <widget class="Line" name="line_67">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="btn_delete_5">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+    border: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}
+
+QPushButton:pressed{
+    background: darkgray;
+}</string>
+                    </property>
+                    <property name="text">
+                     <string>清除</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="Line" name="line_68">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="btn_add_2">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+    border: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}
+
+QPushButton:pressed{
+    background: darkgray;
+}</string>
+                    </property>
+                    <property name="text">
+                     <string>添加</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="Line" name="line_69">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <widget class="Line" name="line_70">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="Line" name="line_41">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>8</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.55 rgba(235, 148, 61, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));</string>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="verticalSpacer_9">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="Line" name="line">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>8</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="Line" name="line_39">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="0,0,3,0,2,0,3,0,2,0,6,0,2">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <spacer name="horizontalSpacer_18">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="Line" name="line_3">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(0, 0, 0);</string>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_3">
+                  <property name="sizeConstraint">
+                   <enum>QLayout::SetMaximumSize</enum>
+                  </property>
+                  <property name="leftMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <spacer name="verticalSpacer_7">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="qr_code_btn">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>100</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+    border: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}
+
+QPushButton:pressed{
+    background: darkgray;
+}</string>
+                    </property>
+                    <property name="text">
+                     <string>二维码生成</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="Line" name="line_74">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="bar_code_btn">
+                    <property name="minimumSize">
+                     <size>
+                      <width>100</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+    border: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}
+
+QPushButton:pressed{
+    background: darkgray;
+}</string>
+                    </property>
+                    <property name="text">
+                     <string>条形码生成</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="Line" name="line_75">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="qr_bar_print_btn">
+                    <property name="minimumSize">
+                     <size>
+                      <width>100</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+    border: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}
+
+QPushButton:pressed{
+    background: darkgray;
+}</string>
+                    </property>
+                    <property name="text">
+                     <string>条码打印</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <spacer name="verticalSpacer_6">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>20</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <widget class="Line" name="line_9">
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(0, 0, 0);</string>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_2">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="Line" name="line_5">
+                  <property name="minimumSize">
+                   <size>
+                    <width>8</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_3">
+                  <property name="styleSheet">
+                   <string notr="true">border-color: rgb(0, 0, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string>二维码</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="Line" name="line_8">
+                  <property name="minimumSize">
+                   <size>
+                    <width>8</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_17">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="Line" name="line_6">
+                  <property name="minimumSize">
+                   <size>
+                    <width>8</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_2">
+                  <property name="text">
+                   <string>条形码</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="Line" name="line_7">
+                  <property name="minimumSize">
+                   <size>
+                    <width>8</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+                  </property>
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_3">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <widget class="Line" name="line_2">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>8</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="tab_2">
+             <attribute name="title">
+              <string>药材数据</string>
+             </attribute>
+             <layout class="QVBoxLayout" name="verticalLayout_6">
+              <item>
+               <widget class="Line" name="line_83">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(81, 81, 81);</string>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_33">
+                <item>
+                 <spacer name="horizontalSpacer">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="Line" name="line_85">
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_46">
+                  <property name="minimumSize">
+                   <size>
+                    <width>50</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 18pt &quot;华文行楷&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>关键字</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="Line" name="line_86">
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="lineEdit_32">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>华文行楷</family>
+                    <pointsize>16</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QLineEdit {
+    border: 2px solid rgb(130,130,130); /* 设置初始边框为浅白色 */
+    border-radius: 10px; /* 设置圆角半径为10px，可根据需要调整 */
+	font: 16pt &quot;华文行楷&quot;;
+}
+
+QLineEdit:hover {
+    border: 4px solid #606060; /* 鼠标悬停时边框变粗且变为浅黑色 */
+}</string>
+                  </property>
+                  <property name="placeholderText">
+                   <string>药材名称/类别</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="Line" name="line_87">
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btn_select_med_3">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+    border: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}
+
+QPushButton:pressed{
+    background: darkgray;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>搜索</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="Line" name="line_88">
+                  <property name="orientation">
+                   <enum>Qt::Vertical</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_32">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_33">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <widget class="Line" name="line_89">
+                <property name="styleSheet">
+                 <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_21">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>40</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">font: 16pt &quot;华文行楷&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>药材数据表：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="Line" name="line_90">
+                <property name="styleSheet">
+                 <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QTableWidget" name="tableWidget_4">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: transparent;
+selection-color: rgb(79, 80, 97);
+selection-background-color:rgba(0, 0, 0, 100);;
+border-color: transparent;
+font: 16pt &quot;华文行楷&quot;;</string>
+                </property>
+                <attribute name="horizontalHeaderStretchLastSection">
+                 <bool>true</bool>
+                </attribute>
+                <column>
+                 <property name="text">
+                  <string>中药材名称</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>类别</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>当前库存</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>最大库存</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>最小库存</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>备注</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>价格</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>操作</string>
+                 </property>
+                </column>
+               </widget>
+              </item>
+              <item>
+               <widget class="Line" name="line_17">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(81, 81, 81);</string>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="page_3">
+         <property name="styleSheet">
+          <string notr="true">font: 16pt &quot;华文行楷&quot;;</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_5">
+          <item row="0" column="0">
+           <widget class="QFrame" name="frame_3">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_7">
+             <item>
+              <layout class="QGridLayout" name="gridLayout_4">
+               <item row="6" column="0">
+                <widget class="QLabel" name="label_31">
+                 <property name="styleSheet">
+                  <string notr="true"> background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid rgb(169,169,169);
+    padding: 5px;
+    padding-left: 10px;
+    color:black;
+    font-family:华文行楷;
+    font-size: 18pt;
+hover{
+    border: 2px solid rgb(169,169,169);
+};
+QAbstractItemView {
+    color: rgb(169,169,169);    
+    padding: 10px;
+    selection-background-color: rgb(169,169,169);}</string>
+                 </property>
+                 <property name="text">
+                  <string>备注</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="1">
+                <widget class="QLineEdit" name="lineEdit_21">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QLineEdit {
+    border: 2px solid rgb(130,130,130); /* 设置初始边框为浅白色 */
+    border-radius: 10px; /* 设置圆角半径为10px，可根据需要调整 */
+}
+
+QLineEdit:hover {
+    border: 4px solid #606060; /* 鼠标悬停时边框变粗且变为浅黑色 */
+}</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="3">
+                <widget class="QLineEdit" name="lineEdit_18">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QLineEdit {
+    border: 2px solid rgb(130,130,130); /* 设置初始边框为浅白色 */
+    border-radius: 10px; /* 设置圆角半径为10px，可根据需要调整 */
+}
+
+QLineEdit:hover {
+    border: 4px solid #606060; /* 鼠标悬停时边框变粗且变为浅黑色 */
+}</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="2">
+                <widget class="QLabel" name="label_25">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true"> background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid rgb(169,169,169);
+    padding: 5px;
+    padding-left: 10px;
+    color:black;
+    font: 18pt &quot;华文行楷&quot;;
+hover{
+    border: 2px solid rgb(169,169,169);
+};
+QAbstractItemView {
+    color: rgb(169,169,169);    
+    padding: 10px;
+    selection-background-color: rgb(169,169,169);}</string>
+                 </property>
+                 <property name="text">
+                  <string>企业类型：</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="2">
+                <widget class="QLabel" name="label_29">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true"> background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid rgb(169,169,169);
+    padding: 5px;
+    padding-left: 10px;
+    color:black;
+    font: 18pt &quot;华文行楷&quot;;
+hover{
+    border: 2px solid rgb(169,169,169);
+};
+QAbstractItemView {
+    color: rgb(169,169,169);    
+    padding: 10px;
+    selection-background-color: rgb(169,169,169);}</string>
+                 </property>
+                 <property name="text">
+                  <string>营业执照：</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="0">
+                <widget class="QLabel" name="label_24">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Agency FB</family>
+                   <pointsize>18</pointsize>
+                   <weight>50</weight>
+                   <italic>false</italic>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true"> background-color: transparent;
+font: 18pt &quot;Agency FB&quot;;
+    border-radius: 5px;
+    border: 2px solid rgb(169,169,169);
+    padding: 5px;
+    padding-left: 10px;
+    color:black;
+hover{
+    border: 2px solid rgb(169,169,169);
+};
+QAbstractItemView {
+    color: rgb(169,169,169);    
+    padding: 10px;
+    selection-background-color: rgb(169,169,169);}</string>
+                 </property>
+                 <property name="text">
+                  <string>GMP/GSP：</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="3">
+                <widget class="QLineEdit" name="lineEdit_19">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QLineEdit {
+    border: 2px solid rgb(130,130,130); /* 设置初始边框为浅白色 */
+    border-radius: 10px; /* 设置圆角半径为10px，可根据需要调整 */
+}
+
+QLineEdit:hover {
+    border: 4px solid #606060; /* 鼠标悬停时边框变粗且变为浅黑色 */
+}</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="2">
+                <widget class="QLabel" name="label_26">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true"> background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid rgb(169,169,169);
+    padding: 5px;
+    padding-left: 10px;
+    color:black;
+    font: 18pt &quot;华文行楷&quot;;
+hover{
+    border: 2px solid rgb(169,169,169);
+};
+QAbstractItemView {
+    color: rgb(169,169,169);    
+    padding: 10px;
+    selection-background-color: rgb(169,169,169);}</string>
+                 </property>
+                 <property name="text">
+                  <string>电话：</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QLineEdit" name="lineEdit_24">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QLineEdit {
+    border: 2px solid rgb(130,130,130); /* 设置初始边框为浅白色 */
+    border-radius: 10px; /* 设置圆角半径为10px，可根据需要调整 */
+}
+
+QLineEdit:hover {
+    border: 4px solid #606060; /* 鼠标悬停时边框变粗且变为浅黑色 */
+}</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="6" column="1" colspan="3">
+                <widget class="QTextEdit" name="textEdit_2">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>150</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>150</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QTextEdit {
+    border: 2px solid rgb(130,130,130); /* 设置初始边框为浅白色 */
+    border-radius: 10px; /* 设置圆角半径为10px，可根据需要调整 */
+}
+
+QTextEdit:hover {
+    border: 4px solid #606060; /* 鼠标悬停时边框变粗且变为浅黑色 */
+}</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_27">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true"> background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid rgb(169,169,169);
+    padding: 5px;
+    padding-left: 10px;
+    color:black;
+    font: 18pt &quot;华文行楷&quot;;
+hover{
+    border: 2px solid rgb(169,169,169);
+};
+QAbstractItemView {
+    color: rgb(169,169,169);    
+    padding: 10px;
+    selection-background-color: rgb(169,169,169);}</string>
+                 </property>
+                 <property name="text">
+                  <string>企业名称：</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QLabel" name="label_28">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true"> background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid rgb(169,169,169);
+    padding: 5px;
+    padding-left: 10px;
+    color:black;
+font: 18pt &quot;华文行楷&quot;;
+hover{
+    border: 2px solid rgb(169,169,169);
+};
+QAbstractItemView {
+    color: rgb(169,169,169);    
+    padding: 10px;
+    selection-background-color: rgb(169,169,169);}</string>
+                 </property>
+                 <property name="text">
+                  <string>单位地址：</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="0">
+                <widget class="QLabel" name="label_30">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true"> background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid rgb(169,169,169);
+    padding: 5px;
+    padding-left: 10px;
+    color:black;
+    font: 18pt &quot;华文行楷&quot;;
+hover{
+    border: 2px solid rgb(169,169,169);
+};
+QAbstractItemView {
+    color: rgb(169,169,169);    
+    padding: 10px;
+    selection-background-color: rgb(169,169,169);}</string>
+                 </property>
+                 <property name="text">
+                  <string>许可证号：</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="1">
+                <widget class="QLineEdit" name="lineEdit_20">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QLineEdit {
+    border: 2px solid rgb(130,130,130); /* 设置初始边框为浅白色 */
+    border-radius: 10px; /* 设置圆角半径为10px，可根据需要调整 */
+}
+
+QLineEdit:hover {
+    border: 4px solid #606060; /* 鼠标悬停时边框变粗且变为浅黑色 */
+}</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="3">
+                <widget class="QLineEdit" name="lineEdit_22">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QLineEdit {
+    border: 2px solid rgb(130,130,130); /* 设置初始边框为浅白色 */
+    border-radius: 10px; /* 设置圆角半径为10px，可根据需要调整 */
+}
+
+QLineEdit:hover {
+    border: 4px solid #606060; /* 鼠标悬停时边框变粗且变为浅黑色 */
+}</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="1">
+                <widget class="QLineEdit" name="lineEdit_23">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QLineEdit {
+    border: 2px solid rgb(130,130,130); /* 设置初始边框为浅白色 */
+    border-radius: 10px; /* 设置圆角半径为10px，可根据需要调整 */
+}
+
+QLineEdit:hover {
+    border: 4px solid #606060; /* 鼠标悬停时边框变粗且变为浅黑色 */
+}</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="Line" name="line_91">
+               <property name="styleSheet">
+                <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_7">
+               <item>
+                <spacer name="horizontalSpacer_4">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="Line" name="line_101">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(81, 81, 81);</string>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="btn_delete_1">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>60</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+    border: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}
+
+QPushButton:pressed{
+    background: darkgray;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>清除</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="btn_create_1">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>60</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+    border: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}
+
+QPushButton:pressed{
+    background: darkgray;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>提交</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="Line" name="line_103">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(81, 81, 81);</string>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="Line" name="line_92">
+               <property name="styleSheet">
+                <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_8">
+               <item>
+                <widget class="Line" name="line_94">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(81, 81, 81);</string>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_32">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true"> background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid rgb(169,169,169);
+    padding: 5px;
+    padding-left: 10px;
+    color:black;
+    font: 18pt &quot;华文行楷&quot;;
+hover{
+    border: 2px solid rgb(169,169,169);
+};
+QAbstractItemView {
+    color: rgb(169,169,169);    
+    padding: 10px;
+    selection-background-color: rgb(169,169,169);}</string>
+                 </property>
+                 <property name="text">
+                  <string>供货商</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="Line" name="line_95">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(81, 81, 81);</string>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="lineEdit_25">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QLineEdit {
+    border: 2px solid rgb(130,130,130); /* 设置初始边框为浅白色 */
+    border-radius: 10px; /* 设置圆角半径为10px，可根据需要调整 */
+}
+
+QLineEdit:hover {
+    border: 4px solid #606060; /* 鼠标悬停时边框变粗且变为浅黑色 */
+}</string>
+                 </property>
+                 <property name="inputMask">
+                  <string/>
+                 </property>
+                 <property name="placeholderText">
+                  <string>企业名称</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="btn_seek_1">
+                 <property name="minimumSize">
+                  <size>
+                   <width>60</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+    border: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}
+
+QPushButton:pressed{
+    background: darkgray;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>搜索</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="btn_delete_2">
+                 <property name="minimumSize">
+                  <size>
+                   <width>60</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+    border: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}
+
+QPushButton:pressed{
+    background: darkgray;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>删除</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="btn_updata_1">
+                 <property name="minimumSize">
+                  <size>
+                   <width>60</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+    border: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}
+
+QPushButton:pressed{
+    background: darkgray;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>更新</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer_5">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="Line" name="line_100">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(81, 81, 81);</string>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="Line" name="line_93">
+               <property name="styleSheet">
+                <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QTableWidget" name="tableWidget_5">
+               <property name="styleSheet">
+                <string notr="true">background-color: transparent;
+selection-color: rgb(79, 80, 97);
+selection-background-color:rgba(0, 0, 0, 100);;
+border-color: transparent;
+font: 16pt &quot;华文行楷&quot;;</string>
+               </property>
+               <attribute name="horizontalHeaderStretchLastSection">
+                <bool>true</bool>
+               </attribute>
+               <column>
+                <property name="text">
+                 <string>企业名称</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>类型</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>地址</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>电话</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>许可证号</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>营业执照</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>GMP/GSP编号</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>备注</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>操作</string>
+                </property>
+               </column>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="page_4">
+         <property name="styleSheet">
+          <string notr="true">font: 14pt &quot;华文行楷&quot;;</string>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_12" stretch="0,2,0,3,0">
+          <item>
+           <widget class="Line" name="line_12">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(81, 81, 81);</string>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame1">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>1</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_8">
+             <item>
+              <widget class="Line" name="line_13">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(81, 81, 81);</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_34">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>45</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 18pt &quot;华文行楷&quot;;</string>
+               </property>
+               <property name="text">
+                <string>处方搜索:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="Line" name="line_19">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(81, 81, 81);background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_4">
+               <item>
+                <widget class="Line" name="line_106">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="lineEdit_26">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QLineEdit {
+    border: 2px solid rgb(130,130,130); /* 设置初始边框为浅白色 */
+    border-radius: 10px; /* 设置圆角半径为10px，可根据需要调整 */
+}
+
+QLineEdit:hover {
+    border: 4px solid #606060; /* 鼠标悬停时边框变粗且变为浅黑色 */
+}</string>
+                 </property>
+                 <property name="placeholderText">
+                  <string>处方名</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="Line" name="line_107">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="btn_seek_2">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>60</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+    border: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}
+
+QPushButton:pressed{
+    background: darkgray;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>查找</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="Line" name="line_108">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="Line" name="line_22">
+               <property name="styleSheet">
+                <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_9">
+               <item>
+                <widget class="QPushButton" name="btn_delete_4">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+    border: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}
+
+QPushButton:pressed{
+    background: darkgray;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>删除</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer_7">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Fixed</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QPushButton" name="btn_update_1">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+    border: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}
+
+QPushButton:pressed{
+    background: darkgray;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>更新</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="Line" name="line_23">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(81, 81, 81);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_33">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>45</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 18pt &quot;华文行楷&quot;;</string>
+               </property>
+               <property name="text">
+                <string>已有处方</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="Line" name="line_21">
+               <property name="styleSheet">
+                <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QTableWidget" name="tableWidget_6">
+               <property name="styleSheet">
+                <string notr="true">background-color: transparent;
+selection-color: rgb(79, 80, 97);
+selection-background-color:rgba(0, 0, 0, 100);;
+border-color: transparent;
+font: 16pt &quot;华文行楷&quot;;</string>
+               </property>
+               <attribute name="horizontalHeaderStretchLastSection">
+                <bool>true</bool>
+               </attribute>
+               <column>
+                <property name="text">
+                 <string>药方</string>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>华文行楷</family>
+                  <pointsize>16</pointsize>
+                 </font>
+                </property>
+                <property name="background">
+                 <color>
+                  <red>255</red>
+                  <green>255</green>
+                  <blue>255</blue>
+                 </color>
+                </property>
+               </column>
+              </widget>
+             </item>
+             <item>
+              <widget class="Line" name="line_14">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(81, 81, 81);</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="Line" name="line_11">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(81, 81, 81);</string>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_4">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>3</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_9">
+             <item>
+              <widget class="Line" name="line_16">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(81, 81, 81);</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_35">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>45</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 18pt &quot;华文行楷&quot;;</string>
+               </property>
+               <property name="text">
+                <string>处方详情:</string>
+               </property>
+               <property name="textFormat">
+                <enum>Qt::AutoText</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="Line" name="line_18">
+               <property name="styleSheet">
+                <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_10">
+               <item>
+                <widget class="Line" name="line_104">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer_8">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Fixed</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>100</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_36">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">font: 18pt &quot;华文行楷&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>处方名：</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="lineEdit_27">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QLineEdit {
+	font: 18pt &quot;华文行楷&quot;;
+    border: 2px solid rgb(130,130,130); /* 设置初始边框为浅白色 */
+    border-radius: 10px; /* 设置圆角半径为10px，可根据需要调整 */
+}
+
+QLineEdit:hover {
+    border: 4px solid #606060; /* 鼠标悬停时边框变粗且变为浅黑色 */
+}</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer_9">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Fixed</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="Line" name="line_105">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="Line" name="line_20">
+               <property name="styleSheet">
+                <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QTableWidget" name="tableWidget_7">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                 <horstretch>3</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>250</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: transparent;
+selection-color: rgb(79, 80, 97);
+selection-background-color:rgba(0, 0, 0, 100);;
+border-color: transparent;
+font: 16pt &quot;华文行楷&quot;;</string>
+               </property>
+               <attribute name="horizontalHeaderStretchLastSection">
+                <bool>true</bool>
+               </attribute>
+               <column>
+                <property name="text">
+                 <string>所含药材</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>数量/g</string>
+                </property>
+               </column>
+              </widget>
+             </item>
+             <item>
+              <widget class="Line" name="line_113">
+               <property name="styleSheet">
+                <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_2">
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_15">
+                 <item>
+                  <widget class="QLabel" name="label_4">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>45</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>华文行楷</family>
+                     <pointsize>18</pointsize>
+                     <weight>50</weight>
+                     <italic>false</italic>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true"> background-color: transparent;
+font: 18pt &quot;华文行楷&quot;;
+    border-radius: 5px;
+    border: 2px solid rgb(169,169,169);
+    padding: 5px;
+    padding-left: 10px;
+    color:black;
+    font-family:华文行楷;
+hover{
+    border: 2px solid rgb(169,169,169);
+};
+QAbstractItemView {
+    color: rgb(169,169,169);    
+    padding: 10px;
+    selection-background-color: rgb(169,169,169);}</string>
+                   </property>
+                   <property name="text">
+                    <string>功效</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="Line" name="line_114">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QTextEdit" name="textEdit_5">
+                   <property name="styleSheet">
+                    <string notr="true"> background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid rgb(169,169,169);
+    padding: 5px;
+    padding-left: 10px;
+    color:black;
+    font-family:华文行楷;
+hover{
+    border: 2px solid rgb(169,169,169);
+};
+QAbstractItemView {
+    color: rgb(169,169,169);    
+    padding: 10px;
+    selection-background-color: rgb(169,169,169);}</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_16">
+                 <item>
+                  <widget class="QLabel" name="label">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>45</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>华文行楷</family>
+                     <pointsize>18</pointsize>
+                     <weight>50</weight>
+                     <italic>false</italic>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true"> background-color: transparent;
+font: 18pt &quot;华文行楷&quot;;
+    border-radius: 5px;
+    border: 2px solid rgb(169,169,169);
+    padding: 5px;
+    padding-left: 10px;
+    color:black;
+    font-family:华文行楷;
+hover{
+    border: 2px solid rgb(169,169,169);
+};
+QAbstractItemView {
+    color: rgb(169,169,169);    
+    padding: 10px;
+    selection-background-color: rgb(169,169,169);}</string>
+                   </property>
+                   <property name="text">
+                    <string>禁忌</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="Line" name="line_115">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QTextEdit" name="textEdit">
+                   <property name="styleSheet">
+                    <string notr="true"> background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid rgb(169,169,169);
+    padding: 5px;
+    padding-left: 10px;
+    color:black;
+    font-family:华文行楷;
+hover{
+    border: 2px solid rgb(169,169,169);
+};
+QAbstractItemView {
+    color: rgb(169,169,169);    
+    padding: 10px;
+    selection-background-color: rgb(169,169,169);}</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="Line" name="line_4">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(81, 81, 81);</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="Line" name="line_15">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(81, 81, 81);</string>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="page">
+         <property name="styleSheet">
+          <string notr="true">font: 16pt &quot;华文行楷&quot;;</string>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_18">
+          <item>
+           <widget class="Line" name="line_48">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(81, 81, 81);</string>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_6">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_12">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_13">
+               <item>
+                <widget class="Line" name="line_42">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(81, 81, 81);</string>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_40">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="sizeIncrement">
+                  <size>
+                   <width>0</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">font: 18pt &quot;华文行楷&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>药材选择</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="Line" name="line_43">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_15">
+                 <item>
+                  <widget class="QTableWidget" name="tableWidget_8">
+                   <property name="styleSheet">
+                    <string notr="true">background-color: transparent;
+selection-color: rgb(79, 80, 97);
+selection-background-color:rgba(0, 0, 0, 100);;
+border-color: transparent;
+font: 16pt &quot;华文行楷&quot;;</string>
+                   </property>
+                   <attribute name="horizontalHeaderStretchLastSection">
+                    <bool>true</bool>
+                   </attribute>
+                   <column>
+                    <property name="text">
+                     <string>药材</string>
+                    </property>
+                   </column>
+                  </widget>
+                 </item>
+                 <item>
+                  <layout class="QVBoxLayout" name="verticalLayout_14">
+                   <item>
+                    <widget class="Line" name="line_32">
+                     <property name="styleSheet">
+                      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+                     </property>
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="label_41">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>45</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">font: 18pt &quot;华文行楷&quot;;</string>
+                     </property>
+                     <property name="text">
+                      <string>关键字查找药材</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="Line" name="line_64">
+                     <property name="styleSheet">
+                      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+                     </property>
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLineEdit" name="lineEdit_29">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>45</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QLineEdit {
+    border: 2px solid rgb(130,130,130); /* 设置初始边框为浅白色 */
+    border-radius: 10px; /* 设置圆角半径为10px，可根据需要调整 */
+}
+
+QLineEdit:hover {
+    border: 4px solid #606060; /* 鼠标悬停时边框变粗且变为浅黑色 */
+}</string>
+                     </property>
+                     <property name="placeholderText">
+                      <string>药材名</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="Line" name="line_34">
+                     <property name="styleSheet">
+                      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+                     </property>
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <spacer name="verticalSpacer_2">
+                     <property name="orientation">
+                      <enum>Qt::Vertical</enum>
+                     </property>
+                     <property name="sizeType">
+                      <enum>QSizePolicy::Fixed</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>20</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                   <item>
+                    <widget class="Line" name="line_35">
+                     <property name="styleSheet">
+                      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+                     </property>
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_16">
+                     <item>
+                      <widget class="Line" name="line_50">
+                       <property name="orientation">
+                        <enum>Qt::Vertical</enum>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QPushButton" name="btn_seek_3">
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>40</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+    border: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}
+
+QPushButton:pressed{
+    background: darkgray;
+}</string>
+                       </property>
+                       <property name="text">
+                        <string>查找</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="Line" name="line_51">
+                       <property name="orientation">
+                        <enum>Qt::Vertical</enum>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QPushButton" name="btn_update_2">
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>40</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+    border: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}
+
+QPushButton:pressed{
+    background: darkgray;
+}</string>
+                       </property>
+                       <property name="text">
+                        <string>更新</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="Line" name="line_52">
+                       <property name="orientation">
+                        <enum>Qt::Vertical</enum>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <widget class="Line" name="line_36">
+                     <property name="styleSheet">
+                      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+                     </property>
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <spacer name="verticalSpacer_5">
+                     <property name="orientation">
+                      <enum>Qt::Vertical</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>20</width>
+                       <height>40</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="Line" name="line_10">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(81, 81, 81);</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="Line" name="line_47">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(81, 81, 81);</string>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_5">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_10">
+             <item>
+              <widget class="Line" name="line_53">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(81, 81, 81);</string>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="Line" name="line_44">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_11">
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_14">
+                 <item>
+                  <widget class="Line" name="line_56">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_39">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">font: 18pt &quot;华文行楷&quot;;</string>
+                   </property>
+                   <property name="text">
+                    <string>处方名：</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="lineEdit_28">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>45</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QLineEdit {
+    border: 2px solid rgb(130,130,130); /* 设置初始边框为浅白色 */
+    border-radius: 10px; /* 设置圆角半径为10px，可根据需要调整 */
+}
+
+QLineEdit:hover {
+    border: 4px solid #606060; /* 鼠标悬停时边框变粗且变为浅黑色 */
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="Line" name="line_57">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="btn_create_2">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>华文行楷</family>
+                     <pointsize>18</pointsize>
+                     <weight>50</weight>
+                     <italic>false</italic>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+    border: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}
+
+QPushButton:pressed{
+    background: darkgray;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>生成</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="Line" name="line_58">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <widget class="Line" name="line_45">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="5,1">
+                 <item>
+                  <widget class="QLabel" name="label_38">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>45</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">font: 18pt &quot;华文行楷&quot;;</string>
+                   </property>
+                   <property name="text">
+                    <string>处方内容</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="btn_add_row">
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+            background-color: transparent;
+            border: none;
+            color: #555555;
+            font-size: 16px;
+            padding: 8px 16px;
+            border-radius: 20px;
+        }
+       QPushButton:hover {
+            background:rgba(0, 0, 0, 100);
+            border: 4px solid #ffffff;
+            border-radius: 40px;
+        }</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="icon">
+                    <iconset>
+                     <normaloff>C:/Users/Lenovo/.designer/res_img/加.png</normaloff>C:/Users/Lenovo/.designer/res_img/加.png</iconset>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <widget class="Line" name="line_46">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QTableWidget" name="tableWidget">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: transparent;
+selection-color: rgb(79, 80, 97);
+selection-background-color:rgba(0, 0, 0, 100);;
+border-color: transparent;
+font: 16pt &quot;华文行楷&quot;;</string>
+                 </property>
+                 <attribute name="horizontalHeaderStretchLastSection">
+                  <bool>true</bool>
+                 </attribute>
+                 <column>
+                  <property name="text">
+                   <string>药材</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>数量</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>操作</string>
+                  </property>
+                 </column>
+                </widget>
+               </item>
+               <item>
+                <widget class="Line" name="line_28">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_6">
+                 <property name="styleSheet">
+                  <string notr="true">font: 18pt &quot;华文行楷&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>功效</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="Line" name="line_24">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="lineEdit">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QLineEdit {
+    border: 2px solid rgb(130,130,130); /* 设置初始边框为浅白色 */
+    border-radius: 10px; /* 设置圆角半径为10px，可根据需要调整 */
+}
+
+QLineEdit:hover {
+    border: 4px solid #606060; /* 鼠标悬停时边框变粗且变为浅黑色 */
+}</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="Line" name="line_29">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_7">
+                 <property name="styleSheet">
+                  <string notr="true">font: 18pt &quot;华文行楷&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>注意事项及禁忌</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="Line" name="line_30">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="lineEdit_2">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QLineEdit {
+    border: 2px solid rgb(130,130,130); /* 设置初始边框为浅白色 */
+    border-radius: 10px; /* 设置圆角半径为10px，可根据需要调整 */
+}
+
+QLineEdit:hover {
+    border: 4px solid #606060; /* 鼠标悬停时边框变粗且变为浅黑色 */
+}</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="Line" name="line_31">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_13">
+                 <item>
+                  <spacer name="horizontalSpacer_10">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeType">
+                    <enum>QSizePolicy::Fixed</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>40</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item>
+                  <widget class="Line" name="line_59">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="btn_taboo">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+    border: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}
+
+QPushButton:pressed{
+    background: darkgray;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>是否违反禁忌</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="Line" name="line_116">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <spacer name="horizontalSpacer_6">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>40</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item>
+                  <widget class="Line" name="line_60">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="btn_clear_1">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+    border: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}
+
+QPushButton:pressed{
+    background: darkgray;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>清空</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="Line" name="line_61">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <spacer name="horizontalSpacer_16">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeType">
+                    <enum>QSizePolicy::Fixed</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>40</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item>
+                  <widget class="Line" name="line_62">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="btn_create_3">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+    border: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}
+
+QPushButton:pressed{
+    background: darkgray;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>详情</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="Line" name="line_63">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <widget class="Line" name="line_117">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(81, 81, 81);</string>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="Line" name="line_49">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(81, 81, 81);</string>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="page_8">
+         <layout class="QVBoxLayout" name="verticalLayout_18" stretch="1,2,2,4,1">
+          <item>
+           <spacer name="verticalSpacer_4">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_20" stretch="2,6,1">
+            <item>
+             <spacer name="horizontalSpacer_13">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_8">
+              <property name="font">
+               <font>
+                <family>华文行楷</family>
+                <pointsize>36</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>智能化中药房处方与仓储管理系统</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_15">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_19" stretch="2,2,2">
+            <item>
+             <spacer name="horizontalSpacer_12">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QSplitter" name="splitter">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <widget class="QPushButton" name="pushButton_4">
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+    border: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}
+
+QPushButton:pressed{
+    background: darkgray;
+}</string>
+               </property>
+               <property name="text">
+                <string>药材管理</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="pushButton_2">
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+    border: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}
+
+QPushButton:pressed{
+    background: darkgray;
+}</string>
+               </property>
+               <property name="text">
+                <string>供货单位管理</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="pushButton_3">
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+    border: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}
+
+QPushButton:pressed{
+    background: darkgray;
+}</string>
+               </property>
+               <property name="text">
+                <string>处方生成</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="pushButton">
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+    border: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}
+
+QPushButton:pressed{
+    background: darkgray;
+}</string>
+               </property>
+               <property name="text">
+                <string> 已有处方</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="pushButton_5">
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 16px;
+    font-family: 华文行楷;
+    border: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QPushButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+}
+
+QPushButton:pressed{
+    background: darkgray;
+}</string>
+               </property>
+               <property name="text">
+                <string>设置</string>
+               </property>
+              </widget>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_14">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="page_11">
+         <property name="styleSheet">
+          <string notr="true">font: 16pt &quot;华文行楷&quot;;</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_23" stretch="0,2,0,0,0,0,12">
+          <item>
+           <widget class="Line" name="line_33">
+            <property name="styleSheet">
+             <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>背景设置</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_17" stretch="2,2,2">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_20" stretch="3,1">
+              <item>
+               <widget class="QLabel" name="label_9">
+                <property name="maximumSize">
+                 <size>
+                  <width>300</width>
+                  <height>200</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QLabel { border-style: solid; border-width: 2px; }</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>C:/Users/Lenovo/.designer/res_img/米白背景.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QRadioButton" name="radioButton">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_21">
+              <item>
+               <widget class="QLabel" name="label_10">
+                <property name="maximumSize">
+                 <size>
+                  <width>300</width>
+                  <height>200</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QLabel { border-style: solid; border-width: 2px; }</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>C:/Users/Lenovo/.designer/res_img/背景.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QRadioButton" name="radioButton_2">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_22">
+              <item>
+               <widget class="QLabel" name="label_11">
+                <property name="maximumSize">
+                 <size>
+                  <width>300</width>
+                  <height>200</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QLabel { border-style: solid; border-width: 2px; }</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>C:/Users/Lenovo/.designer/res_img/白.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QRadioButton" name="radioButton_3">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_11">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="Line" name="line_37">
+            <property name="styleSheet">
+             <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_22">
+            <item>
+             <widget class="QLabel" name="label_12">
+              <property name="font">
+               <font>
+                <family>华文行楷</family>
+                <pointsize>16</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <property name="text">
+               <string>菜单栏位置：</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_21">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QRadioButton" name="radioButton_4">
+              <property name="styleSheet">
+               <string notr="true">QRadioButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 10px;
+    font-family: 华文行楷;
+    border-bottom: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QRadioButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+font: 20pt &quot;华文行楷&quot;;
+}
+
+QRadioButton:pressed{
+    background: darkgray;
+font: 20pt &quot;华文行楷&quot;;
+}</string>
+              </property>
+              <property name="text">
+               <string>左侧</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_19">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QRadioButton" name="radioButton_5">
+              <property name="styleSheet">
+               <string notr="true">QRadioButton{
+    font: 18pt &quot;华文行楷&quot;;
+    background: rgba(255, 255, 255, 60);
+    color: black;
+    border-radius: 10px;
+    font-family: 华文行楷;
+    border-bottom: 2px solid rgb(100,100,100); /* 新增代码 */
+}
+
+QRadioButton:hover{                    
+    background: rgba(0, 0, 0, 100);
+font: 20pt &quot;华文行楷&quot;;
+}
+
+QRadioButton:pressed{
+    background: darkgray;
+font: 20pt &quot;华文行楷&quot;;
+}</string>
+              </property>
+              <property name="text">
+               <string>上方</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_20">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_10">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="page_20">
+         <property name="styleSheet">
+          <string notr="true">font: 14pt &quot;华文行楷&quot;;</string>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_99">
+          <item>
+           <widget class="QScrollArea" name="scrollArea">
+            <property name="styleSheet">
+             <string notr="true">background: rgba(255, 255, 255, 60);</string>
+            </property>
+            <property name="widgetResizable">
+             <bool>true</bool>
+            </property>
+            <widget class="QWidget" name="scrollAreaWidgetContents">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>1051</width>
+               <height>11740</height>
+              </rect>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout">
+              <item>
+               <widget class="QLabel" name="label_13">
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap>../res_img/help_dcoument.png</pixmap>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="Line" name="line_40">
+        <property name="minimumSize">
+         <size>
+          <width>10</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="Line" name="line_26">
+     <property name="minimumSize">
+      <size>
+       <width>2</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qradialgradient(spread:repeat, cx:0.5, cy:0.5, radius:0.077, fx:0.5, fy:0.5, stop:0 rgba(0, 169, 255, 147), stop:0.497326 rgba(0, 0, 0, 147), stop:1 rgba(0, 169, 255, 147));</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+   </item>
+  </layout>
+  <zorder>widget_3</zorder>
+  <zorder>frame</zorder>
+  <zorder>line_25</zorder>
+  <zorder>line_26</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
